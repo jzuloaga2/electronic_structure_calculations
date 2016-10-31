@@ -28,17 +28,17 @@ testrpa.f :
 Subroutines: 
 **************************************************
 
-solverpa.f
+solverpa.f : 
     Subroutine called by testrpa.f, calculates
     absorption in the Random Phase Approximation.
 
-chi0.f
+chi0.f : 
     Subroutine called by testrpa.f and by solverpa.f, calculates chi0.
 
-chartree.f
+chartree.f : 
     Subroutine called by solverpa.f to calculate the Hartree potential.
 
-green.f 
+green.f :
     Subroutine called by chi0.f to calculate the Green's function.
 
 
